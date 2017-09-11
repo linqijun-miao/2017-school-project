@@ -1,1 +1,2 @@
 # 2017 school project
+ This is a project I made during my second year in the college.This project is basically chat software whit server and client both in PC and Android.It was the first time I coded a complete project so it had many shortcomes £¬but anyway it while worth  memorializing for me.
