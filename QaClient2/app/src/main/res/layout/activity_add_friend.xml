@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/add_friend">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        >
+        <EditText
+            android:id="@+id/add_friend_id_input"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:hint="friend's id"
+            android:inputType="number"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/search_friend"
+            android:layout_marginLeft="60dp"
+            android:text="search"
+            android:background="@color/colorDanhuangse"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/find_id"
+        android:layout_marginTop="66dp"
+        android:layout_gravity="center"
+        android:textSize="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/find_name"
+        android:layout_marginTop="66dp"
+        android:layout_gravity="center"
+        android:textSize="16dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_confirm"
+        android:text="confirm"
+        android:layout_gravity="center"
+        android:layout_marginTop="36dp"
+        android:background="@color/colorDanhuangse"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_cancel"
+        android:text="cancel"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorDanhuangse"/>
+</LinearLayout>

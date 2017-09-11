@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    android:weightSum="1"
+    android:background="@drawable/load">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_weight="0.38" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="Account:"
+            android:layout_marginLeft="6dp"/>
+
+
+        <EditText
+            android:id="@+id/account"
+            android:layout_height="wrap_content"
+            android:hint = "here your account"
+            android:inputType="number"
+            />
+
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="Password:"
+            android:layout_marginLeft="6dp"/>
+
+        <EditText android:id="@+id/password"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"/>
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/login"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:text="Login"
+            android:background="@android:color/transparent"
+            />
+    </TableRow>
+
+    <TextView
+        android:layout_height="wrap_content" />
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/register"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:text="register"
+            android:background="@android:color/transparent"
+            />
+
+    </TableRow>
+
+
+</TableLayout>

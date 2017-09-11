@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorTitle">#3cdbff</color>
+    <color name="colorTitleBack">#803cff</color>
+    <color name="colorHuabai">#fffaf0</color>
+    <color name="colorDanke">#fce6c9</color>
+    <color name="colorBaixinren">#fff9c4</color>
+    <color name="colorDanhuangse">#f5deb3</color>
+    <color name="colorDeepGray">#aaa9a8</color>
+</resources>

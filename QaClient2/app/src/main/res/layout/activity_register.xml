@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="93dp"></LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Account:"
+            android:id="@+id/textView2"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/accountR"
+            android:layout_height="wrap_content"
+            android:layout_width="255dp"
+            android:hint = "here your account"
+            android:layout_weight="0.03"
+            android:layout_marginLeft="30dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Name:"
+            android:textSize="20dp"
+            />
+
+        <EditText android:id="@+id/nameR"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:hint = "the name friends will see"
+            android:layout_marginLeft="43dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Password:"
+            android:id="@+id/textView"
+            android:textSize="20dp"/>
+
+        <EditText android:id="@+id/passwordR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint = "you will use it to login"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"></LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/radioGroupSex"
+            android:contentDescription="Sex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="male"
+                    android:id="@+id/radioButtonM"
+                    android:checked="true"
+                    android:layout_marginLeft="85dp"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="female"
+                    android:id="@+id/radioButtonF"
+                    android:layout_marginLeft="60dp"/>
+            </LinearLayout>
+
+        </RadioGroup>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"></LinearLayout>
+
+
+
+
+
+
+
+        <Button
+            android:id="@+id/registerB"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="register"
+           android:layout_gravity="center"
+            />
+
+</LinearLayout>
